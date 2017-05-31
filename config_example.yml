@@ -1,0 +1,12 @@
+
+hostname: sftpurl.example.com
+username: user
+password: yourpassword
+
+loggly: False
+
+files:  # format is remote: local
+  '/path/to/remote/file': 'C:\Path\to\local\file'
+  '/a/different/remote/file': 'D:\another\local\file'
+
+post_script: 'calculator.exe'
